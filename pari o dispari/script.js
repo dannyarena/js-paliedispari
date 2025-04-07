@@ -18,3 +18,13 @@ function èPari(numero) {
     return numero % 2 === 0;
   }
   
+
+  if (
+    (èPari(somma) && sceltaUtente === "pari") ||
+    (!èPari(somma) && sceltaUtente === "dispari")
+  ) {
+    console.log("Hai vinto!");
+  } else {
+    console.log("Hai perso!");
+  }
+  
