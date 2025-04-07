@@ -12,3 +12,9 @@ console.log("Il computer ha scelto:", numeroComputer);
 
 const somma = numeroUtente + numeroComputer;
 console.log("La somma dei numeri è:", somma);
+
+
+function èPari(numero) {
+    return numero % 2 === 0;
+  }
+  
